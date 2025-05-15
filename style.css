@@ -1,0 +1,124 @@
+body{
+    background-color: #FAF9F6;
+}
+
+h1{
+    text-align: center;
+    text-decoration: line-through 1px gold;
+    color: #8ba5ce;
+}
+
+h1:hover{
+    text-decoration: line-through 2px rgb(255, 24, 3);
+    color: #bc53f9;
+}
+
+#animab{
+    padding: 30px;
+    text-align: center;
+}
+
+#imagemd {
+    display: none;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 15px auto 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#tema {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#tema:hover {
+    background-color: #ddd;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: #EBD9B4
+}
+
+p{
+    font-family: monospace;
+    text-align: justify;
+    font-size: 20px;
+    color: #D6D3CD	
+}
+
+p:hover{
+    padding: 5px;
+    border: #000 solid 1px;
+    background-color:aliceblue;
+}
+
+#tabela {
+    margin-top:20px ;
+    margin-bottom: 20px;
+    width: 50%;
+    border-collapse: collapse;
+}
+  
+#tabela th,
+#tabela td {
+    border: 1px solid #0a52fa;
+    padding: 2px;
+    text-align: center;
+}
+  
+#tabela img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 200px;
+}
+  
+
+#hobb{
+    display: flex;             
+    flex-wrap: wrap;           
+    gap: 30px;                 
+    justify-content: center;
+    max-width: 100%;
+}
+
+#hobb img{
+    border-radius: 550px;
+    border: solid 2px #216bff89;
+    width: 100%;
+    max-width: 300px;    
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.links{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: auto;
+    font-size: 26px;
+}
+
+.links a {
+    color: #0000006d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
